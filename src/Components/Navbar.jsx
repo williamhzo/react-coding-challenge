@@ -3,10 +3,10 @@ import {NavLink} from  'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/temperature'>Temperature</NavLink>
-      <NavLink to='/custom-image'>Custom Image</NavLink>
+    <div className='nav'>
+      <NavLink className='nav__link' to='/'>Home</NavLink>
+      <NavLink className='nav__link' to='/temperature'>Temperature</NavLink>
+      <NavLink className='nav__link' to='/custom-image'>Custom Image</NavLink>
     </div>
   )
 }
