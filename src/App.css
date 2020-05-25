@@ -59,3 +59,12 @@
   background-color: #61dafb;
   color: #282c34;
 }
+
+.temperature-section__title {
+  color: #61dafb;
+  margin: 50px auto;
+}
+
+.temperature-section__text {
+  font-weight: 600;
+}
