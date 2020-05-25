@@ -37,6 +37,11 @@
   }
 }
 
+.home__title {
+  color: #61dafb;
+  margin-top: 100px;
+}
+
 .nav {
   display: flex;
   justify-content: space-evenly;
